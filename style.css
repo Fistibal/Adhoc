@@ -1,0 +1,160 @@
+html {
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+
+.navbar-default {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover {
+    background-color: white;
+    color: #37c2aa;
+}
+
+nav ul li{
+  font-family: Roboto;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    height: 43.5rem;
+    margin-top: 3.125rem;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/unit-7/adhoc/jumbotron.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: Arbutus Slab, serif;
+  font-size: 3.75rem;
+  color: white;
+  background-color: #d404af;
+  margin: 17rem auto 0 auto;
+  max-width: 50rem;
+  padding: .25rem 0;
+  color: white;
+}
+
+.jumbotron p{
+  font-family: Roboto;
+  font-size: 1.25rem;
+  background-color: #f5cb07;
+  max-width: 50rem;
+  padding: .75rem 0;
+  font-weight: normal;
+  margin: 0 auto;
+}
+
+/*quotation*/
+.quotation {
+    width: 83%;
+    padding-top: 7rem;
+    padding-bottom: 9.25rem;
+    font-family: "Droid Serif", serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.3;
+    color: #4a4a4a;
+}
+
+.citation {
+    padding-top: .75rem;
+    font-family: "Roboto", sans-serif;
+    font-size: .875rem;
+    line-height: 1.4;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/*feature*/
+.header-line .header {
+    text-align: center;
+    margin-bottom: 2.25rem;
+}
+
+.header-line .header h1 {
+  font-size: 3rem;
+  font-family: arbutus slab, serif;
+  position: relative;
+  top: -1.5rem;
+  display: inline;
+  padding: 0 1.25rem;
+  background-color: white;
+}
+
+.header-line {
+    border-top: 1px solid #d4d5d6;
+    margin-bottom: 3rem;
+}
+
+/*the team*/
+.the-team {
+  background-color: #4a4a4a;
+  text-align: center;
+  color: white;
+}
+
+.the-team h1 {
+  font-family: Arbutus Slab;
+  font-size: 3rem;
+  padding-top: 5.5rem;
+  padding-bottom: 3.375rem;
+}
+
+.line {
+  display: block;
+}
+.team-member strong {
+    padding-top: 2rem;
+}
+
+.team-member span {
+  padding-bottom: 7.25rem;
+}
+
+/*current clients*/
+.current-clients {
+    margin-top: 5.25rem;
+    padding-bottom: 5rem;
+}
+
+.image-container {
+    margin-bottom: 2.25rem;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    padding-top: 2.625rem;
+    padding-bottom: 2rem;
+    background-color: #e9ebeb;
+    text-align: center;
+}
+
+footer p {
+  font-size: .75rem;
+  color: #212123;
+  padding: 1.5rem 0 2rem;
+}
+
+.icon {
+  padding-top: 2rem;
+}
+
+.icon a {
+    color: #337ab7;
+}
